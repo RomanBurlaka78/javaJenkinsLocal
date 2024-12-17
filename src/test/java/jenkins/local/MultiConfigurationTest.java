@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class MultiConfigurationTest extends BaseTest {
-    private  final  String NAME_OF_PROJECT = "MC project";
+    private  static final  String NAME_OF_PROJECT = "MC project";
 
     @Test
     public void testCreateProject() {
